@@ -1,0 +1,156 @@
+/* --------------------------------------------------------------------
+color,font and variable setup
+-------------------------------------------------------------------- */
+
+
+
+:root{
+
+    --c-primary :#FF9900;
+    --c-secondry :#192337;
+    --c-background :#F0FFF0;
+    --c-dark :#000000;
+    --font-base:('poppins', sans-serif) !important;
+}
+
+body{
+    font-family: var(--font-base);
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+    font-weight: 600 !important;
+}
+a{
+    text-decoration: none;
+    color: var(--c-background) ;
+}
+
+
+a:hover{
+    color: var(--c-primary) !important;
+}
+
+.section-padding{
+    padding-top: 120PX;
+    padding-bottom: 120PX;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* --------------------------------------------------------------------
+button css setup  #FF9900  #000000  #1F2A42   #F0FFF0
+-------------------------------------------------------------------- */
+
+.btn{
+    font-weight: 650 !important;
+}
+
+.btn-primary{
+    background-color: var(--c-primary) !important;
+    border: var(--c-primary) !important;
+    color: var(--c-background) !important;
+    border-radius: 15px !important;
+
+}
+
+.btn-primary:hover{
+    color: var(--c-dark) !important;
+}
+
+.btn-light{
+    background-color: var(--c-secondry) !important;
+    border: var(--c-secondry) !important;
+    color: var(--c-background) !important;
+    border-radius: 15px !important;
+}
+
+.btn-light:hover{
+    color: var(--c-dark) !important;
+}
+
+
+/* --------------------------------------------------------------------
+navbar css setup
+-------------------------------------------------------------------- */
+
+.navbar{
+    font-family: var(--font-base);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#header {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: auto;
+}
+
+/* --------------------------------------------------------------------
+hero css setup
+-------------------------------------------------------------------- */
+/* #her{
+    background:url(../img/home/bg.jpg) ; */
+    /* background-size: cover;
+     background-position: top center;
+     position: relative; */
+
+/* } */
+
+#hero-image {
+    background-image:  url("../img/home/bg.jpg");
+    height: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .herotext{
+    font-size: 100px;
+    font-weight: 700;
+  }
+/* --------------------------------------------------------------------
+discount card css setup
+-------------------------------------------------------------------- */
+
+.card-body-dis{
+    background-color: var(--c-secondry) !important;
+    border: var(--c-secondry) !important;
+}
+
+.card-dis{
+    background-color: var(--c-secondry) !important;
+    border: var(--c-secondry) !important;
+}
+
+/* --------------------------------------------------------------------
+about us css setup
+-------------------------------------------------------------------- */
+.back-sct{
+    background-color: var(--c-secondry);
+}
+
+/* --------------------------------------------------------------------
+menu css setup
+-------------------------------------------------------------------- */
+
+.card{
+    border: none !important;
+}
+
+/* --------------------------------------------------------------------
+footer css setup
+-------------------------------------------------------------------- */
+
+.back-footer{
+    background-color: var(--c-secondry) !important;
+}
